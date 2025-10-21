@@ -17,7 +17,7 @@ import { useRouter } from 'vue-router';
             </div>
 
             <div class="flex">
-                <a href="https://github.com/nopointfreestyle">
+                <a href="https://github.com/nopointfreestyle/quant-calculator">
                     <span class="icon-color-title-50 hover:icon-color-title-100" v-html="$icon('github')"></span>
                 </a>
             </div>
