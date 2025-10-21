@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background: #F6F8FF;
+}
+
+@theme {
+    --default-font-family: 'DM Sans', 'Arial';
+
+    --ui-container: 90rem;
+    
+    --color-main-100: rgba(59, 104, 252, 1);
+    --color-main-90: rgba(59, 104, 252, .9);
+    --color-main-80: rgba(59, 104, 252, .8);
+    --color-main-70: rgba(59, 104, 252, .7);
+    --color-main-60: rgba(59, 104, 252, .6);
+    --color-main-50: rgba(59, 104, 252, .5);
+    --color-main-40: rgba(59, 104, 252, .4);
+    --color-main-30: rgba(59, 104, 252, .3);
+    --color-main-20: rgba(59, 104, 252, .2);
+    --color-main-10: rgba(59, 104, 252, .1);
+
+    --color-title-100: rgba(49, 65, 88, 1);
+    --color-title-90: rgba(49, 65, 88, .9);
+    --color-title-80: rgba(49, 65, 88, .8);
+    --color-title-70: rgba(49, 65, 88, .7);
+    --color-title-60: rgba(49, 65, 88, .6);
+    --color-title-50: rgba(49, 65, 88, .5);
+    --color-title-40: rgba(49, 65, 88, .4);
+    --color-title-30: rgba(49, 65, 88, .3);
+    --color-title-20: rgba(49, 65, 88, .2);
+    --color-title-10: rgba(49, 65, 88, .1);
+
+    --color-subtitle-100: rgba(86, 91, 108, 1);
+    --color-subtitle-90: rgba(86, 91, 108, .9);
+    --color-subtitle-80: rgba(86, 91, 108, .8);
+    --color-subtitle-70: rgba(86, 91, 108, .7);
+    --color-subtitle-60: rgba(86, 91, 108, .6);
+    --color-subtitle-50: rgba(86, 91, 108, .5);
+    --color-subtitle-40: rgba(86, 91, 108, .4);
+    --color-subtitle-30: rgba(86, 91, 108, .3);
+    --color-subtitle-20: rgba(86, 91, 108, .2);
+    --color-subtitle-10: rgba(86, 91, 108, .1);
+}
+
+@utility color-* {
+  color: --value(--color-*)
+}
+
+@utility icon-color-* {
+    --svg-icon-color: --value(--color-*)
+}
+
+svg path {
+    transition: .2s ease;
+    transition-property: fill, stroke;
+}
+
+.base-icon svg {
+    width: 100%;
+    height: 100%;
+}

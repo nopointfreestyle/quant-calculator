@@ -1,0 +1,27 @@
+{
+  // "compilerOptions": {
+  //   "target": "esnext",
+  //   "allowJs": true, // If tailwind.config.js is a JS file
+  //   "skipLibCheck": true,
+  //   "esModuleInterop": true,
+  //   "allowSyntheticDefaultImports": true,
+  //   "strict": true,
+  //   "forceConsistentCasingInFileNames": true,
+  //   "noEmit": true,
+  //   "incremental": true,
+  //   "module": "nodenext",
+  //   "moduleResolution": "node", // Or "bundler"
+  //   "resolveJsonModule": true,
+  //   "isolatedModules": true,
+  //   "jsx": "preserve",
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "*": ["src/*", "node_modules/*"]
+  //   }
+  // }
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
