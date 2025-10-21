@@ -196,7 +196,7 @@
     <section class="bg-white w-full max-w-[390px] p-5 rounded-2xl border-1 border-[#E2E8F0] grid gap-3">
         <span class="text-xl color-title-100 font-bold">График</span>
 
-        <div class="rounded-2xl border-1 border-[#E2E8F0] h-[350px]">
+        <div class="rounded-2xl border-1 border-[#E2E8F0] h-[350px] overflow-hidden">
             <canvas 
                 ref="canvas" 
                 :width="canvasWidth" 
